@@ -23,16 +23,22 @@ const FormHero = styled.form`
     height: 100%;
     background-color: ${Cores.corPrincipal};
     content: '';
-    opacity: 0.7;
+    opacity: 0.1;
     z-index: 1;
   }
+`
+
+export const FormContent = styled.div`
+  position: relative;
+  color: #ffffff !important;
 `
 
 export const HeroTitle = styled.h2`
   position: relative;
   font-family: Gloock, serif;
   font-size: 40px;
-  color: ${Cores.corSecundaria};
+  color: #ffffff !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   z-index: 2;
 
   @media (max-width: 768px) {

@@ -29,7 +29,7 @@ declare module 'styled-components' {
   }
 }
 export const Cores = {
-  corPrincipal: '#2fa3fb',
+  corPrincipal: '#a7727d',
   corSecundaria: '#f9f5e7'
 }
 

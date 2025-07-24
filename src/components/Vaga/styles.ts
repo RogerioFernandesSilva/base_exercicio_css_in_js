@@ -9,12 +9,12 @@ const VacanciesList = styled.ul`
   transition: all ease 0.3s;
   border-radius: 8px;
 
-  :hover {
+  &:hover {
     background-color: ${Cores.corPrincipal};
     color: ${Cores.corSecundaria};
   }
 
-  :hover a {
+  a {
     border-color: ${Cores.corPrincipal};
     background-color: ${Cores.corSecundaria};
     color: ${Cores.corPrincipal};
