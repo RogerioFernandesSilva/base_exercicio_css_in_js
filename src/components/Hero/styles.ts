@@ -10,7 +10,7 @@ const FormHero = styled.form`
   display: flex;
   align-items: center;
 
-    @media (max-width: 768px) {
+  @media (max-width: 768px) {
     height: auto;
     padding: 24px 0;
   }
@@ -25,7 +25,7 @@ const FormHero = styled.form`
     content: '';
     opacity: 0.7;
     z-index: 1;
-
+  }
 `
 
 export const HeroTitle = styled.h2`
