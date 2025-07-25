@@ -6,15 +6,15 @@ const VacanciesList = styled.ul`
   background-color: ${Cores.corSecundaria};
   color: ${Cores.corPrincipal};
   padding: 16px;
-  transition: all ease 0.3s;
+  transition: all ease 0.5s;
   border-radius: 8px;
 
-  &:hover {
+  :hover {
     background-color: ${Cores.corPrincipal};
     color: ${Cores.corSecundaria};
   }
 
-  a {
+  :hover a {
     border-color: ${Cores.corPrincipal};
     background-color: ${Cores.corSecundaria};
     color: ${Cores.corPrincipal};
@@ -39,6 +39,15 @@ export const VacanciesLink = styled.a`
   border-radius: 8px;
   text-align: center;
 
+  &:hover {
+    background-color: ${Cores.corSecundaria};
+    color: ${Cores.corPrincipal};
+  }
+  a {
+    border-color: ${Cores.corPrincipal};
+    background-color: ${Cores.corSecundaria};
+    color: ${Cores.corPrincipal};
+  }
   @media (max-width: 768px) {
     display: block;
   }

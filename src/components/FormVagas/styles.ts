@@ -20,7 +20,6 @@ export const ButtonSearch = styled.button`
   margin-left: 8px;
   cursor: pointer;
 `
-
 export const InputSearch = styled.input`
   padding: 0 16px;
   outline-color: ${Cores.corPrincipal};
