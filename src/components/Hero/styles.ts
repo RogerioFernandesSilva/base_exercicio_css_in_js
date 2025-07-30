@@ -9,13 +9,14 @@ const FormHero = styled.form`
   position: relative;
   display: flex;
   align-items: center;
+  z-index: 0;
 
   @media (max-width: 768px) {
     height: auto;
     padding: 24px 0;
   }
 
-  ::before {
+  &::before {
     position: absolute;
     top: 0;
     left: 0;
@@ -26,17 +27,21 @@ const FormHero = styled.form`
     opacity: 0.7;
     z-index: 1;
   }
+
+  & > div {
+    position: relative;
+    z-index: 2;
+    color: #eee;
+  }
 `
 
 export const HeroTitle = styled.h2`
-  position: relative;
   font-family: Gloock, serif;
   font-size: 40px;
-  color: #ffffff;
-  z-index: 2;
+  color: #eee;
 
   @media (max-width: 768px) {
-    font-size: 24px;
+    font-size: 32px;
   }
 `
 
